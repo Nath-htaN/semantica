@@ -1,0 +1,86 @@
+body{
+    background-color: #7293ee;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+li{
+    text-align: center;
+    list-style: none;
+}
+.carrossel{
+    border: solid;
+    border-radius: 15px;
+    width: 1200px;
+    height: 360px;
+    overflow: hidden;
+    border: none;
+}
+.imagem{
+    height: 360px;
+    width: 1100%;
+    animation: animacao 15s infinite;
+}
+.imagem img{
+    width: 1196px;
+    height: 100%;
+}
+.pagina{
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 15px;
+}
+.caixa{
+    padding: 20px;
+    border-radius: 10px;
+    overflow-y: visible;
+}
+.cursos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+.imgcurso{
+    display: flex;
+    border: solid;
+    width: 500px;
+    height: 360px;
+    overflow: hidden;
+    border: none;
+}
+.curso{
+    width: 100%;
+    height: 90%;
+}
+
+@keyframes animacao{
+    0%{margin-left: 0;}
+    3%{margin-left: 0;}
+    10%{margin-left: -100%;}
+    13%{margin-left: -100%;}
+    20%{margin-left: -200%;}
+    23%{margin-left: -200%;}
+    30%{margin-left: -300%;}
+    33%{margin-left: -300%;}
+    40%{margin-left: -400%;}
+    43%{margin-left: -400%;}
+    50%{margin-left: -500%;}
+    53%{margin-left: -500%;}
+    60%{margin-left: -600%;}
+    63%{margin-left: -600%;}
+    70%{margin-left: -700%;}
+    73%{margin-left: -700%;}
+    80%{margin-left: -800%;}
+    83%{margin-left: -800%;}
+    90%{margin-left: -900%;}
+    93%{margin-left: -900%;}
+    100%{margin-left: -1000%;}
+}
